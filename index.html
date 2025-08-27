@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h2>My Portfolio</h2>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <!-- Hero Section -->
+<section id="hero" class="hero">
+  <div class="hero-content">
+    <h1>Abinaya.G</h1>
+    <p>Web Developer | Designer | Coder</p>
+  </div>
+</section>
+
+
+  <!-- About Section -->
+<section id="about" class="about">
+  <div class="about-container">
+    <div class="about-img">
+      <img src="https://i.postimg.cc/mgRjR76v/Whats-App-Image-2025-08-21-at-22-01-58-6c814364.jpg" 
+     alt="Portfolio Website" />
+
+    </div>
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        Hi, I’m Abinaya, a college student passionate about technology and coding.  
+        I’m currently focusing on learning <strong>Java</strong> step by step, exploring concepts from basics to advanced.  
+        Although programming sometimes feels challenging, I enjoy improving through practice and curiosity.  
+        My goal is to build strong problem-solving skills and create projects that reflect creativity and logic.  
+        Alongside academics, I’m always eager to learn new tools, technologies, and ways to grow as a developer.  
+      </p>
+    </div>
+  </div>
+</section>
+
+
+ <!-- Projects Section -->
+<section id="projects">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+     alt="Portfolio Website" />
+
+
+        <h3>Portfolio Website</h3>
+        <p>Personal portfolio built with HTML, CSS, and JS.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="Project 2">
+        <h3>Business Dashboard</h3>
+        <p>Data-powered business optimization dashboard.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+     alt="Java Application" />
+
+        <h3>Java App</h3>
+        <p>Student record management system in Java.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Skills Section -->
+<section id="skills" class="skills">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <div class="circle" data-percent="90">
+          <svg>
+            <circle cx="70" cy="70" r="60"></circle>
+            <circle cx="70" cy="70" r="60"></circle>
+          </svg>
+          <div class="number">0%</div>
+        </div>
+        <h3>HTML</h3>
+      </div>
+      <div class="skill">
+        <div class="circle" data-percent="80">
+          <svg>
+            <circle cx="70" cy="70" r="60"></circle>
+            <circle cx="70" cy="70" r="60"></circle>
+          </svg>
+          <div class="number">0%</div>
+        </div>
+        <h3>CSS</h3>
+      </div>
+      <div class="skill">
+        <div class="circle" data-percent="70">
+          <svg>
+            <circle cx="70" cy="70" r="60"></circle>
+            <circle cx="70" cy="70" r="60"></circle>
+          </svg>
+          <div class="number">0%</div>
+        </div>
+        <h3>JavaScript</h3>
+      </div>
+      <div class="skill">
+        <div class="circle" data-percent="65">
+          <svg>
+            <circle cx="70" cy="70" r="60"></circle>
+            <circle cx="70" cy="70" r="60"></circle>
+          </svg>
+          <div class="number">0%</div>
+        </div>
+        <h3>Java</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+
+  <!-- Contact Form -->
+  <form id="contactForm" action="https://formspree.io/f/mandwenq" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <!-- Popup -->
+  <div id="popupMessage" class="popup">
+    <div class="popup-content">
+      <p>✅ Message successfully sent!</p>
+      <button onclick="closePopup()">OK</button>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Abinaya.G | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+  
+
+</body>
+</html>
